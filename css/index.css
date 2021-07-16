@@ -1,0 +1,41 @@
+* {
+    background-color: black;
+}
+
+body {
+    max-width: 1540px;
+    min-width: 720px;
+}
+
+h1 {
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 4%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1:hover {
+    color: lightblue;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a:hover {
+    color: lightblue;    
+}
+
+nav {
+    float: right;
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;
+}
+
+img {
+    align-items: center;
+}
