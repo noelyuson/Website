@@ -1,33 +1,32 @@
 * {
+    /* everything is consistent with black background, white text in Courier New font */
     background-color: black;
     color: white;
+    font-family: "Courier New", Courier, monospace;
 }
 
 body {
+    /* keeping my page wide but not too wide */
     max-width: 1540px;
     min-width: 720px;
 }
 
 p {
+    /* paragraph is large and put to left for readibility and padded for aesthetic */
     font-size: 50px;
     text-align: left;
     padding-left: 20%;
     padding-top: 10%;
-    font-family:'Courier New', Courier, monospace;
-}
-
-.noel {
-    padding-top: 20px;
 }
 
 h1 {
-    cursor: pointer;
+    /* main header is my logo and put to right corner */
     text-align: right;
     padding-right: 4%;
-    font-family: "Courier New", Courier, monospace;
 }
 
 a {
+    /* for UX purposes, cursor is pointer to links and sized for readiblity */
     cursor: pointer;
     text-decoration: none;
     font-size: 20px;
@@ -35,13 +34,13 @@ a {
 }
 
 a:hover {
+    /* adding a hove option to enhance UI */
     color: lightblue;    
 }
 
 nav {
+    /* want to keep the nav items to the right corder */
     float: right;
-    border-top: solid 2px black;
-    border-bottom: solid 1px black;
 }
 
 table {
@@ -54,9 +53,9 @@ table {
 
 td img{
     /* cite source: https://stackoverflow.com/questions/8603914/center-image-in-table-td-in-css/8603927 */
+    /* keeping my images blocked and displayed in flexible way */
     display: block;
     margin-left: auto;
     margin-right: auto;
     flex-grow: 4;
-
 }
