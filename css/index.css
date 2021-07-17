@@ -8,6 +8,19 @@ body {
     min-width: 720px;
 }
 
+p {
+    font-size: 50px;
+    text-align: left;
+    padding-left: 20%;
+    /* padding-right: 20%; */
+    padding-top: 10%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.noel {
+    padding-top: 20px;
+}
+
 h1 {
     color: white;
     cursor: pointer;
@@ -39,4 +52,11 @@ nav {
 
 img {
     align-items: center;
+}
+
+table {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 7%;
+    cursor: pointer;
 }
